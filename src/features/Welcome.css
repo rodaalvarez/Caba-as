@@ -1,0 +1,15 @@
+.cardContainer{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.cardItem{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.cardItem:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
