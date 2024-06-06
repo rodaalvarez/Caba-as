@@ -1,0 +1,13 @@
+.containerContacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.mapsIsabel{
+    padding: 2rem;    
+}
+.footer{
+    width: 100%;
+}

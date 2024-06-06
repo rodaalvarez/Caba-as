@@ -16,11 +16,11 @@ const Navbar = () => {
                         Inicio
                     </Link>
                 </li>                
-                <li>
-                    <Link to="/about">
+                {/* <li>
+                    <Link to="#nosotros">
                         Nosotros
                     </Link>
-                </li>
+                </li> */}
                 <li>
                     <Link to="#info">
                         Info
