@@ -6,6 +6,8 @@ const WelcomePage = () => {
   return (
     <div>
       <Suspense fallback={<div>Loading...</div>}>
+      <h1>Hola</h1>
+
         <Welcome />
       </Suspense>
     </div>
