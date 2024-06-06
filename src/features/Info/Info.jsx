@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 
 const imagesCholito = importAllImages(require.context(`../../../public/Cholito`, false, /\.(png|jpe?g|svg)$/));
 const imagesIsabel = importAllImages(require.context('../../../public/Isabel', false, /\.(png|jpe?g|svg)$/));
+
 const Info = () => {
     const location = useLocation();
 
@@ -20,14 +21,13 @@ const Info = () => {
   return (
     <section>
         <div id="isabel">
-            <Carroussell images={imagesIsabel}/>
+            <Carroussell images={imagesIsabel.map(image => `${process.env.PUBLIC_URL}/Isabel/${image}`)}/>
         </div>
         <div id="cholito"> 
-            <Carroussell images={imagesCholito}/>
+            <Carroussell images={imagesCholito.map(image => `${process.env.PUBLIC_URL}/Cholito/${image}`)}/>
         </div>
     </section>
   )
 }
 
 export default Info
- 
