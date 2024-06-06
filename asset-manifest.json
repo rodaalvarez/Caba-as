@@ -1,10 +1,7 @@
 {
   "files": {
-    "main.css": "/Caba-as/static/css/main.2ec72423.css",
-    "main.js": "/Caba-as/static/js/main.7bcec881.js",
-    "static/css/479.2b4e905f.chunk.css": "/Caba-as/static/css/479.2b4e905f.chunk.css",
-    "static/js/479.4408e531.chunk.js": "/Caba-as/static/js/479.4408e531.chunk.js",
-    "static/js/37.77818b49.chunk.js": "/Caba-as/static/js/37.77818b49.chunk.js",
+    "main.css": "/Caba-as/static/css/main.9012df76.css",
+    "main.js": "/Caba-as/static/js/main.2f17f4ea.js",
     "static/media/ag.jpg": "/Caba-as/static/media/ag.1c2f1aca90b8bf1a8407.jpg",
     "static/media/cholito20.jpg": "/Caba-as/static/media/cholito20.97b6e47cdf13436f8745.jpg",
     "static/media/isabel 12.jpg": "/Caba-as/static/media/isabel 12.4f8776f29b94b61d1a25.jpg",
@@ -50,14 +47,11 @@
     "static/media/cholito6.jpg": "/Caba-as/static/media/cholito6.a75c73511bf1c5ce25b5.jpg",
     "static/media/cholito25.jpg": "/Caba-as/static/media/cholito25.db447ffe699396251cb7.jpg",
     "index.html": "/Caba-as/index.html",
-    "main.2ec72423.css.map": "/Caba-as/static/css/main.2ec72423.css.map",
-    "main.7bcec881.js.map": "/Caba-as/static/js/main.7bcec881.js.map",
-    "479.2b4e905f.chunk.css.map": "/Caba-as/static/css/479.2b4e905f.chunk.css.map",
-    "479.4408e531.chunk.js.map": "/Caba-as/static/js/479.4408e531.chunk.js.map",
-    "37.77818b49.chunk.js.map": "/Caba-as/static/js/37.77818b49.chunk.js.map"
+    "main.9012df76.css.map": "/Caba-as/static/css/main.9012df76.css.map",
+    "main.2f17f4ea.js.map": "/Caba-as/static/js/main.2f17f4ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ec72423.css",
-    "static/js/main.7bcec881.js"
+    "static/css/main.9012df76.css",
+    "static/js/main.2f17f4ea.js"
   ]
 }
