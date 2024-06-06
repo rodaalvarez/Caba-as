@@ -1,13 +1,11 @@
-import React, { lazy, Suspense } from 'react';
+import Welcome from '../features/Welcome/Welcome';
 
-const Welcome = lazy(() => import('../features/Welcome/Welcome'));
+
 
 const WelcomePage = () => {
   return (
     <div>
-      <Suspense fallback={<div>Loading...</div>}>
         <Welcome />
-      </Suspense>
     </div>
   );
 };
