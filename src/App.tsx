@@ -1,14 +1,14 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import WelcomePage from './pages/WelcomePage';
-import Welcome from './features/Welcome/Welcome';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
 
   return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
+        <Navbar/>
         <Routes>        
           <Route path="/" element={<WelcomePage />} />
-          <Welcome/>
         </Routes>
       </Router>
     
