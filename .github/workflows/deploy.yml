@@ -26,10 +26,14 @@ jobs:
 
       - name: Clean previous deployment
         run: |
-          rm -rf node_modules
-          rm -rf ./build
-          git checkout -B gh-pages
-          git reset --hard origin/gh-pages
+          git config --global user.email "rodaalvarez18@hotmail.com"
+          git config --global user.name "rodaalvarez"
+          git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git fetch origin
+          git worktree add gh-pages
+          cd gh-pages
+          rm -rf *
+          cd ..
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
