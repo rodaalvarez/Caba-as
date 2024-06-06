@@ -14,7 +14,7 @@ const Carroussell = ({ images }: IProps) => {
 
     return () => clearInterval(interval); 
   }, []); 
-  console.log(images)
+  
   return (
     <section className='carrousellSection'>
         <div className='imgSection' style={{ background: `url(${images[current]})` }}>

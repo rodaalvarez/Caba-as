@@ -6,9 +6,10 @@ import { useLocation, useNavigate } from "react-router";
 import Info from "../Info/Info";
 import { useEffect } from "react";
 const { Meta } = Card;
-const isabel = process.env.PUBLIC_URL + '/isabel7.jpg';
-const cholito = process.env.PUBLIC_URL + '/cholito29.jpg';
+
 const Welcome = () => {
+    const isabel = process.env.PUBLIC_URL + '/isabel7.jpg';
+    const cholito = process.env.PUBLIC_URL + '/cholito29.jpg';
     const navigate = useNavigate();
     const location = useLocation();
 
