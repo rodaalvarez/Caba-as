@@ -3,8 +3,8 @@ import Carroussell from '../../components/Carroussel/Carroussell';
 import { importAllImages } from '../../utils/importImages';
 import { useEffect } from 'react';
 
-const imagesCholito = importAllImages(require.context('../../assets/Cholito', false, /\.(png|jpe?g|svg)$/));
-const imagesIsabel = importAllImages(require.context('../../assets/Isabel', false, /\.(png|jpe?g|svg)$/));
+const imagesCholito = importAllImages(require.context(`../../../public/Cholito`, false, /\.(png|jpe?g|svg)$/));
+const imagesIsabel = importAllImages(require.context('../../../public/Isabel', false, /\.(png|jpe?g|svg)$/));
 const Info = () => {
     const location = useLocation();
 

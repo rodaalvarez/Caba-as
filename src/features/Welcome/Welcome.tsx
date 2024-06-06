@@ -1,14 +1,13 @@
 import "./Welcome.css"
 import { HomeOutlined, InfoCircleOutlined } from '@ant-design/icons';
 import { Card } from 'antd';
-import Container from '../components/Container/Container';
-import  isabel  from "../assets/isabel 7.jpg";
-import  cholito  from "../assets/cholito29.jpg";
+import Container from '../../components/Container/Container';
 import { useLocation, useNavigate } from "react-router";
-import Info from "./Info/Info";
+import Info from "../Info/Info";
 import { useEffect } from "react";
 const { Meta } = Card;
-
+const isabel = process.env.PUBLIC_URL + '/isabel7.jpg';
+const cholito = process.env.PUBLIC_URL + '/cholito29.jpg';
 const Welcome = () => {
     const navigate = useNavigate();
     const location = useLocation();

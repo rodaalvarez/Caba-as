@@ -1,6 +1,6 @@
 import React, { lazy, Suspense } from 'react';
 
-const Welcome = lazy(() => import('../features/Welcome'));
+const Welcome = lazy(() => import('../features/Welcome/Welcome'));
 
 const WelcomePage = () => {
   return (

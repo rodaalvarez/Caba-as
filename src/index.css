@@ -18,7 +18,7 @@ body {
 
 body::before {
   content: "";
-  background: url("./assets/ag.jpg") no-repeat center center fixed;
+  background: url("../public/ag.jpg") no-repeat center center fixed;
   background-size: cover;
   opacity: 0.8;
   position: fixed; 
